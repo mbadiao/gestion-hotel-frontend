@@ -4,7 +4,7 @@ export default async function ListRooms() {
   let rooms = []
 
   try {
-    const res = await fetch('http://localhost/Gestion-hotel-/backend/index.php?action=listRooms', {
+    const res = await fetch('http://localhost/gestion_hotel/backend/index.php?action=listRooms', {
       cache: 'no-store', // Pour éviter la mise en cache côté serveur
     })
 
